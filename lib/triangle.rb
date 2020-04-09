@@ -13,7 +13,7 @@ class Triangle
     elsif @a + @b <= @c || @a + @c <= @b || @b + @C <= @a
       raise TriangleError
     else
-      if @a == @b && @a == @c 
+      if @a == @b && @b == @c 
         :equilateral
       elsif @a == @b || @b == @c || @a == @c 
         :isosceles
