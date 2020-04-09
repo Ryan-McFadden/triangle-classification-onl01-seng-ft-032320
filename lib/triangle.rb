@@ -18,11 +18,11 @@ class Triangle
       raise TriangleError
     else
       if a == b && b == c && a == c
-        return :equilateral
+        :equilateral
       elsif a == b || b == c || a == c 
-        return :isosceles
+        :isosceles
       else
-        return :scalene
+        :scalene
       end
     end
   end
