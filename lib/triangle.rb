@@ -14,7 +14,9 @@ class Triangle
     else
       if @a == @b && @a == @c 
         :equilateral
-      elsif @a
+      elsif @a == @b || @b == @c || @a == @c 
+        :isosceles
+      elsif @a != @b
   end
   
 end
