@@ -11,7 +11,8 @@ class Triangle
       raise TriangleError
     elsif @a + @b <= @c || @a + @c <= @b || @b + @C <= @a
       raise TriangleError
-    elsif
+    else
+      if @a == @b 
   end
   
 end
