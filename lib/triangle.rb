@@ -7,7 +7,8 @@ class Triangle
   end
   
   def kind 
-    if 
+    if @a = 0 || @b = 0 || @c = 0 
+      raise 
     if @a + @b <= @c || @a + @c <= @b || @b + @C <= @a
       
   end
