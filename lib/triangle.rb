@@ -16,7 +16,7 @@ class Triangle
       raise TriangleError
     elsif @a + @b <= @c || @a + @c <= @b || @b + @C <= @a
       raise TriangleError
-    else
+    elsif
       if a == b && b == c && a == c
         :equilateral
       elsif a == b || b == c || a == c 
