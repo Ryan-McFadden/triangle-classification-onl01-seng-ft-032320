@@ -1,7 +1,9 @@
 class Triangle
   attr_accessor :a, :b, :c
   
-  
+  class TriangleError < StandardError
+    
+  end
   
   def initialize(a, b, c)
     @a = a 
